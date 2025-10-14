@@ -7,6 +7,10 @@ app = Flask(__name__)
 def home():
     return "Server ist bereit und wartet auf Anfragen."
 
+@app.route('/profil')
+def impressum():
+    return "<html><body><body><h1>Gym</h1><p>Lukas hat schwache Schultern.</p></body></html>"
+
 # Route zum Empfangen von Nachrichten
 @app.route('/message', methods=['POST'])
 def handle_message():
