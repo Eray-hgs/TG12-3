@@ -1,11 +1,25 @@
 from flask import Flask, request, jsonify
 
+def attribute():
+   return f"""
+       methode: {request.method}
+       args: {request.args}
+       form: {request.form}
+       data: {request.data}
+       headers: {request.headers}
+       cookies: {request.cookies}
+       path: {request.path}
+       url: {request.url}
+       remote_addr: {request.remote_addr}
+    """
+
 app = Flask(__name__)
 
 # Route für die Hauptseite
 @app.route('/')
 def home():
-    return "Server ist bereit und wartet auf Anfragen."
+    response_attributes = attribute()
+    return jsonify({"attributes": response_attributes})
 
 @app.route('/profil')
 def impressum():
@@ -17,10 +31,14 @@ def handle_message():
     data = request.json
     message = data.get('message', '')
     print(f"Empfangen: {message}")
+    print(attribute())
     response_message = f"Echo: {message}"
     return jsonify({"response": response_message})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=12345)  # Server starten
 
+
+
+   
 # Zum Starten des Servers: python server.py
