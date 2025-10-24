@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Eray",
+        "jahrgang": 2007,
+        "staerke": 5,
+        "torschuss": 5,
+        "motivation": 5
+    },
+    {
+        "name": "Lukas",
+        "jahrgang": 2006,
+        "staerke": 10,
+        "torschuss": 10,
+        "motivation": 1
+    },
+    {
+        "name": "Felix",
+        "jahrgang": 2007,
+        "staerke": 10,
+        "torschuss": 10,
+        "motivation": 5
+    },
+    {
+        "name": "Theo",
+        "jahrgang": 2007,
+        "staerke": 6,
+        "torschuss": 7,
+        "motivation": 1
+    }
+]
