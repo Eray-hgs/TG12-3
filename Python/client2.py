@@ -7,10 +7,10 @@ URL = "http://localhost:12345/spieler"
 # 🚗 Beispiel-Daten
 spieler_daten = {
     "name": str(input("Name:")),
-    "jahrgang": int(input("Jahrgang:")),
-    "staerke":  int(input("Stärke:")),
-    "torschuss": int(input("Torschuss:")),
-    "motivation": int(input("Motivation:")),
+    "jahrgang": int(input("Jahrgang(1980-2007):")),
+    "staerke":  int(input("Stärke(1-10):")),
+    "torschuss": int(input("Torschuss(1-10):")),
+    "motivation": int(input("Motivation(1-10):")),
 }
 
 response = requests.post(URL, json=spieler_daten)

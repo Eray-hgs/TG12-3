@@ -21,7 +21,6 @@ else:
 
 app = Flask(__name__)
 
-spieler_liste =[]
 # Route für die Hauptseite
 @app.route('/')
 def home():
@@ -50,8 +49,8 @@ def handle_spieler():
     try:
         data = request.get_json()
         s = Spieler(**data)
-
         spieler_liste.append(s)
+
         with open("spieler.json", "w", encoding="utf-8") as f:
             json.dump([s.model_dump() for s in spieler_liste], f, ensure_ascii=False, indent=4)
         print("✅ Spieler wurden in 'spieler.json' gespeichert")
@@ -91,8 +90,7 @@ def attribute():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=12345)  # Server starten
-
-
+    
 
    
 # Zum Starten des Servers: python server.py
