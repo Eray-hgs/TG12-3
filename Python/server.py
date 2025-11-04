@@ -67,7 +67,7 @@ def handle_spieler():
             "details": e.errors()
         }), 400
 
-@app.route('/test')
+@app.route('/spielerdaten')
 def Test_Ausgabe():
     daten = ""
     for s in spieler_liste:
