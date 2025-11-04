@@ -3,6 +3,7 @@ from pydantic import BaseModel, Field, ValidationError
 from model import Spieler 
 import json
 import os
+from flask_cors import CORS
 
 dateiname = "spieler.json"
 
@@ -20,6 +21,8 @@ else:
 
 
 app = Flask(__name__)
+CORS(app)  # CORS aktivieren
+
 
 # Route für die Hauptseite
 @app.route('/')

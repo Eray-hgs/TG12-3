@@ -5,7 +5,7 @@ document.getElementById("spielerForm").addEventListener("submit", async function
 
     // Formulardaten sammeln
     const spieler = {
-        spieler: document.getElementById("spieler").value,
+        name: document.getElementById("name").value,
         jahrgang: parseInt(document.getElementById("jahrgang").value),
         staerke: parseInt(document.getElementById("staerke").value),
         torschuss: parseInt(document.getElementById("torschuss").value),

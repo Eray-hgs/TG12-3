@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Eray",
+        "jahrgang": 2000,
+        "staerke": 5,
+        "torschuss": 5,
+        "motivation": 5
+    },
+    {
+        "name": "Eray",
+        "jahrgang": 2000,
+        "staerke": 5,
+        "torschuss": 5,
+        "motivation": 5
+    },
+    {
+        "name": "Daniel",
+        "jahrgang": 2007,
+        "staerke": 3,
+        "torschuss": 7,
+        "motivation": 8
+    },
+    {
+        "name": "Lukas",
+        "jahrgang": 1981,
+        "staerke": 10,
+        "torschuss": 10,
+        "motivation": 2
+    },
+    {
+        "name": "John",
+        "jahrgang": 2000,
+        "staerke": 10,
+        "torschuss": 10,
+        "motivation": 10
+    },
+    {
+        "name": "Schnee",
+        "jahrgang": 2000,
+        "staerke": 10,
+        "torschuss": 10,
+        "motivation": 10
+    },
+    {
+        "name": "Edderd Stark",
+        "jahrgang": 1980,
+        "staerke": 10,
+        "torschuss": 9,
+        "motivation": 9
+    },
+    {
+        "name": "Name Vergessen",
+        "jahrgang": 1980,
+        "staerke": 2,
+        "torschuss": 3,
+        "motivation": 2
+    },
+    {
+        "name": "Name Vergessen",
+        "jahrgang": 2007,
+        "staerke": 10,
+        "torschuss": 10,
+        "motivation": 10
+    },
+    {
+        "name": "Name Vergessen",
+        "jahrgang": 2007,
+        "staerke": 10,
+        "torschuss": 10,
+        "motivation": 10
+    },
+    {
+        "name": "Lukarius",
+        "jahrgang": 1980,
+        "staerke": 7,
+        "torschuss": 10,
+        "motivation": 4
+    },
+    {
+        "name": "Sogrates",
+        "jahrgang": 1980,
+        "staerke": 10,
+        "torschuss": 7,
+        "motivation": 5
+    },
+    {
+        "name": "Lukarius",
+        "jahrgang": 1980,
+        "staerke": 1,
+        "torschuss": 1,
+        "motivation": 1
+    },
+    {
+        "name": "Hodor",
+        "jahrgang": 1988,
+        "staerke": 8,
+        "torschuss": 4,
+        "motivation": 4
+    },
+    {
+        "name": "Ramsey Schnee",
+        "jahrgang": 2007,
+        "staerke": 1,
+        "torschuss": 1,
+        "motivation": 1
+    },
+    {
+        "name": "Bolton",
+        "jahrgang": 1980,
+        "staerke": 1,
+        "torschuss": 1,
+        "motivation": 1
+    }
+]
