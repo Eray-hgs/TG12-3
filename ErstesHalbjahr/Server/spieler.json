@@ -110,5 +110,12 @@
         "staerke": 1,
         "torschuss": 1,
         "motivation": 1
+    },
+    {
+        "name": "Amy",
+        "jahrgang": 2007,
+        "staerke": 10,
+        "torschuss": 10,
+        "motivation": 10
     }
 ]
