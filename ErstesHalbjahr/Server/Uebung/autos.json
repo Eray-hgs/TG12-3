@@ -1,0 +1,12 @@
+[
+    {
+        "marke": "BMW",
+        "baujahr": 2000,
+        "ps": 200
+    },
+    {
+        "marke": "Mercede",
+        "baujahr": 1950,
+        "ps": 300
+    }
+]
